@@ -14,7 +14,7 @@ const SEO = ({ postNode, postPath, postSEO }) => {
     ;({ title } = postMeta)
     description = postMeta.description ? postMeta.description : postNode.excerpt
     image = postMeta.cover
-    canonical = postMeta.canonical
+    canonical = postMeta.canonical ? postMeta.canonical : null
     postURL = urljoin(config.siteUrl, config.pathPrefix, postPath)
   } else {
     title = config.siteTitle
@@ -71,7 +71,7 @@ const SEO = ({ postNode, postPath, postSEO }) => {
       <meta name="description" content={description} />
       <meta name="image" content={image} />
       {/* Canonical support by SM */}
-      <link rel="canonical" href={canonical} />
+      {canonical ? <link rel="canonical" href={canonical} /> : null}
 
       {/* Schema.org tags */}
       <script type="application/ld+json">

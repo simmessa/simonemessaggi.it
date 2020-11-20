@@ -120,6 +120,7 @@ module.exports = {
                 site_url
                 feed_url
                 title
+                canonical
                 description
                 image_url
                 copyright
@@ -136,6 +137,7 @@ module.exports = {
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.fields.date,
                 title: edge.node.frontmatter.title,
+                canonical: edge.node.frontmatter.canonical,
                 description: edge.node.excerpt,
                 url: rssMetadata.site_url + edge.node.fields.slug,
                 guid: rssMetadata.site_url + edge.node.fields.slug,
@@ -162,6 +164,7 @@ module.exports = {
                     }
                     frontmatter {
                       title
+                      canonical
                       cover
                       date
                       categories

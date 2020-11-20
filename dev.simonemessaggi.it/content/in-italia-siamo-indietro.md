@@ -1,7 +1,7 @@
 ---
 date: 2014-08-12
 title: "In Italia siamo indietro"
-cover: "https://miro.medium.com/max/874/1*JkGriknclpYOBcI8COKbCw.jpeg"
+cover: "29_square_wheels.jpeg"
 canonical: "https://medium.com/@simmessa/in-italia-siamo-indietro-d32fdc126713"
 categories: 
     - Tech
@@ -11,7 +11,7 @@ tags:
     - nodejs
 ---
 
-![Bicicletta con ruote quadrate](https://miro.medium.com/max/874/1*JkGriknclpYOBcI8COKbCw.jpeg)
+![Bicicletta con ruote quadrate](./images/29_square_wheels.jpg)
 
 *Fa specie constatare che, questo post, scritto nel lontano 12 agosto 2014 sia, per certi versi, ancora così attuale... comunque ve lo lascio e tirate voi le conclusioni!*
 
