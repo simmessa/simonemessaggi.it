@@ -1,7 +1,7 @@
 ---
 date: 2014-08-12
 title: "In Italia siamo indietro"
-cover: "29_square_wheels.jpeg"
+featuredImage: "./images/29_square_wheels.jpg"
 canonical: "https://medium.com/@simmessa/in-italia-siamo-indietro-d32fdc126713"
 categories: 
     - Tech
@@ -10,8 +10,6 @@ tags:
     - ghost
     - nodejs
 ---
-
-![Bicicletta con ruote quadrate](./images/29_square_wheels.jpg)
 
 *Fa specie constatare che, questo post, scritto nel lontano 12 agosto 2014 sia, per certi versi, ancora così attuale... comunque ve lo lascio e tirate voi le conclusioni!*
 
@@ -47,6 +45,6 @@ Seguiranno, tempo permettendo, alcune elucubrazioni sul mondo della tecnologia d
 
 Per il momento è tutto, preparare una piattaforma con nodejs mi ha impegnato parecchio, e ho altro lavoro da fare, ma ci sentiamo presto...
 
-*Simmessa*
+*Simone Messaggi*
 
 *originariamente pubblicato il 12 agosto 2014 su simmessa.com e riproposto su [medium.com](https://medium.com/@simmessa/in-italia-siamo-indietro-d32fdc126713)*

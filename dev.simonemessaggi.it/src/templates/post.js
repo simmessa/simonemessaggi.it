@@ -9,6 +9,7 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import styles from './post.module.scss'
 import './prism-okaidia.css'
+import Img from "gatsby-image"
 
 export default ({ data, pageContext }) => {
   const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext
@@ -18,6 +19,10 @@ export default ({ data, pageContext }) => {
   if (!post.id) {
     post.id = slug
   }
+
+  // SM featured image
+  let featuredImgFluid = post.featuredImage.childImageSharp.fluid
+
   return (
     <Layout>
       <main>
@@ -28,12 +33,13 @@ export default ({ data, pageContext }) => {
         <div>
           <h1>{post.title}</h1>
           <p className={styles.postMeta}>
-            {date} &mdash; {postNode.timeToRead} Min Read{' '}
+            {date} &mdash; {postNode.timeToRead} Minuti {' '}
           </p>
           <div className={styles.postMeta}>
             <PostTags tags={post.tags} />
           </div>
-          <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+          <Img fluid={featuredImgFluid} />
+          <div style={{ margin: '2rem auto' }} dangerouslySetInnerHTML={{ __html: postNode.html }} />
 
           <hr />
           <Bio config={config} />
@@ -69,8 +75,15 @@ export const pageQuery = graphql`
       excerpt
       frontmatter {
         title
+        featuredImage{
+          childImageSharp {
+            fluid(maxWidth: 800){
+              ...GatsbyImageSharpFluid
+              src
+            }
+          }
+        }
         canonical
-        cover
         date
         categories
         tags

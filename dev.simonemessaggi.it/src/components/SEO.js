@@ -13,7 +13,8 @@ const SEO = ({ postNode, postPath, postSEO }) => {
     const postMeta = postNode.frontmatter
     ;({ title } = postMeta)
     description = postMeta.description ? postMeta.description : postNode.excerpt
-    image = postMeta.cover
+    // image = postMeta.cover
+    image = postMeta.featuredImage.childImageSharp.fluid.src
     canonical = postMeta.canonical ? postMeta.canonical : null
     postURL = urljoin(config.siteUrl, config.pathPrefix, postPath)
   } else {

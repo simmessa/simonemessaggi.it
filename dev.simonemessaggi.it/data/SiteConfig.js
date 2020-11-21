@@ -32,7 +32,8 @@ if (config.pathPrefix === '/') {
   config.pathPrefix = ''
 } else {
   // Make sure pathPrefix only contains the first forward slash
-  config.pathPrefix = `/${config.pathPrefix.replace(/^\/|\/$/g, '')}`
+  // @SM buggy so I removed this!
+  // config.pathPrefix = `/${config.pathPrefix.replace(/^\/|\/$/g, '')}`
 }
 
 // Make sure siteUrl doesn't have an ending forward slash

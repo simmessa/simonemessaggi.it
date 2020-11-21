@@ -37,6 +37,12 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/content/images/`
+      }
+    },
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
@@ -165,7 +171,6 @@ module.exports = {
                     frontmatter {
                       title
                       canonical
-                      cover
                       date
                       categories
                       tags
