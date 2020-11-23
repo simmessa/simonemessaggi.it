@@ -1,4 +1,14 @@
-# Viviamo nell'era post Wordpress?
+---
+date: 2014-08-21
+title: "Viviamo nell'era post Wordpress?"
+featuredImage: "./images/wordpress-512.png"
+status: published
+categories: 
+    - Rants
+tags:
+    - CMS
+    - Wordpress
+---
 
 *Ovviamente, come è sacrosanto, la mia previsione si è tutt'altro che avverata, a distanza di anni Ghost sembra più morto che vivo, l'articolo originario è datato 21 agosto 2014 ed è comparso su Simmessa.com*
 
