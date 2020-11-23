@@ -41,6 +41,13 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
+            featuredImage{
+              childImageSharp {
+                fluid(maxWidth: 400, maxHeight: 200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             tags
             date
             categories
