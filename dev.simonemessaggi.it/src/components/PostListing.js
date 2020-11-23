@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styles from './PostsListing.module.scss'
+import Img from "gatsby-image"
+
 
 const PostListing = ({ postEdges }) => {
   const getPostList = () => {
@@ -10,7 +12,7 @@ const PostListing = ({ postEdges }) => {
         path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
         categories: postEdge.node.frontmatter.categories,
-        cover: postEdge.node.frontmatter.cover,
+        featuredImage: postEdge.node.frontmatter.featuredImage.childImageSharp.fixed,
         title: postEdge.node.frontmatter.title,
         date: postEdge.node.fields.date,
         excerpt: postEdge.node.excerpt,
@@ -33,6 +35,7 @@ const PostListing = ({ postEdges }) => {
                 {post.date} &mdash; <span>{post.categories.join(' / ')}</span>{' '}
                 &mdash; {post.timeToRead} Min Read{' '}
               </div>
+              <Img fixed={post.featuredImage} />
               <p>{post.excerpt}</p>
             </div>
           </article>
