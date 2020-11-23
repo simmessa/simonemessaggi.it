@@ -3,6 +3,7 @@ date: 2014-08-21
 title: "Viviamo nell'era post Wordpress?"
 featuredImage: "./images/wordpress-512.png"
 status: published
+canonical: https://medium.com/@simmessa/viviamo-nellera-post-wordpress-28a1e8d12876
 categories: 
     - Rants
 tags:

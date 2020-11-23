@@ -1,4 +1,20 @@
-# Fare un dump da uno snapshot RDS con Python e Terraform
+---
+date: 2018-10-31
+title: "Fare un dump da uno snapshot RDS con Python e Terraform"
+featuredImage: "./images/AWS-Feature.png"
+status: published
+canonical: https://medium.com/@simmessa/fare-un-dump-da-uno-snapshot-rds-con-python-e-terraform-7cbd0fa026fc
+categories: 
+    - Tech
+tags:
+    - AWS Cloud
+    - RDS
+    - MySQL
+    - Terraform
+    - Python
+---
+
+*Repost di articolo apparso per la prima volta su [Medium](https://medium.com/@simmessa/fare-un-dump-da-uno-snapshot-rds-con-python-e-terraform-7cbd0fa026fc)*
 
 Ok, già tutti voi conoscete le prodezze del cloud di Amazon, per cui non vi annoio con i dettagli, e se i vostri server si trovano su AWS è molto facile che già utilizziate il loro *db engine as a service*, ovvero **RDS** (che sta per Relational Database Service).
 
@@ -7,6 +23,9 @@ Oggi parliamo proprio di un hack utile per chi usa questo servizio, e nello spec
 ## Ma non esistono già i backup?
 
 RDS, tra le tante cose interessanti, offre la funzionalità di avere dei backup automatici, ed se lo avete provato sapete già che è davvero comodo. In ogni momento potete ripristinare uno snapshot esistente o anche creare una nuova istanza del database, di cui scegliere la dimensione (intesa come "potenza" del server), andando a pescare dai dati dello snapshot.
+
+![RDS ha degli ottimi backup, ma non sono i dump sql che servono a noi…](./images/RDS_snapshot.png)
+*RDS ha degli ottimi backup, ma non sono i dump sql che servono a noi…*
 
 Spesso mi è capitato di pensare che questi backup fossero già quello che mi serviva, ovvero un modo come un altro di dumpare il db in file sql compresso per duplicare un servizio, purtroppo mi sono accorto a mie spese che non è così semplice, soprattutto se vi va di automatizzare il processo e volete trovare il modo di rischiare il meno possibile con un db live in produzione.
 
