@@ -32,7 +32,7 @@ export const pageQuery = graphql`
         node {
           fields {
             slug
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD/MM/YYYY")
           }
           excerpt
           timeToRead
@@ -44,7 +44,7 @@ export const pageQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
-            }    
+            }
             tags
             date
             categories
