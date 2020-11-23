@@ -1,4 +1,15 @@
-#Guida al protocollo KNXnet/IP cioè KNX over IP
+---
+date: 2015-12-31
+title: "Guida al protocollo KNXnet/IP cioè KNX over IP"
+featuredImage: "./images/knxiprouterinterfaceoverlay.png"
+status: published
+categories:
+    - Tech
+tags:
+    - IOT
+    - home automation
+    - KNX
+---
 
 *Oggi (articolo originale pubblicato il 31 dicembre 2015 su Simmessa.com) mi sono imbattuto in un utile tutorial in inglese che spiega come funziona il protocollo KNX IP ovvero KNX over IP, per chi di voi non lo conoscesse, stiamo parlando di Konnex, ovvero uno dei più diffusi protocolli per la domotica e la home automation, trovate più info su http://knx.org comunque l'articolo che ho letto mi sembrava interessante ed ho pensato di riscriverlo qui in italiano per chi fosse curioso! Trovate l'originale su http://knxtoday.com/2014/01/3056/solutions-ip-and-knx-bringing-you-up-to-speed.html*
 
@@ -19,7 +30,7 @@ Per supportare questo protocollo (IP) il gruppo KNX ha sviluppato il telegramma 
 
 E’ importante capire però che se anche le reti LAN hanno molti benefici, i requisiti di avere un’infrastruttura controllata e definita necessitano di mantenere KNX TP1 come base.
 
-![Il cavo KNX TP1](/tech/content/images/2015/12/KNX-TP1-cable.jpg)
+![Il cavo KNX TP1](./images/KNX-cable.jpg)
 *fig.1 - Il cavo KNX TP1*
 
 ## Il telegramma KNX/IP
@@ -61,7 +72,7 @@ Il router IP gestirà anche la tabella dei filtri per gestire il traffico (conge
 
 Chiaramente, trattandosi di multicast, abbiamo che per contattare più dispositivi punteremo ad un indirizzo multicast standard, in qusto modo abbiamo una comunicazione uno a molti, la KNX association ha riservato l’indirizzo di multicast 224.0.23.12 per comodità ma qualsiasi altro indirizzo può essere impiegato, basta che sia lo steso su tutti i dispositivi.
 
-![Usiamo un router IP come backbone e line coupler](/tech/content/images/2015/12/KNX-IP-network.jpg)
+![Usiamo un router IP come backbone e line coupler](./images/KNX-IP-network.jpg)
 
 *fig.2 - Usiamo un router IP come backbone e line coupler*
 
@@ -87,7 +98,7 @@ Il routing invece, per sua stessa natura, non ha limiti al numero di connessioni
 
 Alcuni device hanno inoltre time server e schede di memoria per registrare il bus.
 
-![Questo è il router KNXnet / IP Gira 2167 00](/tech/content/images/2015/12/Gira-KNX-IP-router.jpg)
+![Questo è il router KNXnet / IP Gira 2167 00](./images/Gira-KNX-IP-router.jpg)
 *fig.3 - Questo è il router KNXnet / IP Gira 2167 00*
 
 **Nota Bene:**
