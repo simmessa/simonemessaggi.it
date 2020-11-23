@@ -24,4 +24,10 @@ footer {
     .copyright {
         text-align: right;
     }
+
+    .copyleft {
+        display: inline-block;
+        transform: rotate(180deg);
+    }
+
 }

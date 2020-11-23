@@ -28,7 +28,7 @@ const Footer = () => (
           RSS
         </a>
       </div>
-      <div className={styles.copyright}>{config.copyright}</div>
+      <div className={styles.copyright}><span className={styles.copyleft}>&copy;</span> {config.copyright}</div>
     </div>
   </footer>
 )
