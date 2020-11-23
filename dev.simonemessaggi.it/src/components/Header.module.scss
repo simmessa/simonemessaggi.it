@@ -24,6 +24,10 @@ header {
     margin-top: 5px;
   }
 
+  h4 {
+    font-style: italic;
+  }
+
   nav a {
     color: #757575;
     transition: color 0.2s ease;
@@ -78,6 +82,12 @@ header {
     height: 120px;
   }
 
+  header h4 {
+    position: absolute;
+    bottom: 0em;
+    right: 1em;
+  }
+
   nav {
     margin-top: -20px;
 
@@ -92,6 +102,12 @@ header {
     strong {
       display: none;
     }
+  }
+
+  header h4 {
+    position: absolute;
+    bottom: 0em;
+    right: 1em;
   }
 
   .main-nav {
@@ -109,5 +125,11 @@ header {
     border: 1px solid #eee;
     padding: 2px;
     border-radius: 5px;
+  }
+
+  header h4 {
+    position: absolute;
+    bottom: 0em;
+    right: 1em;
   }
 }

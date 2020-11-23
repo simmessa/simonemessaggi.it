@@ -3,10 +3,14 @@
     grid-template-columns: 50% 50%;
 
     .article-box {
-        margin-bottom: 30px;
+        margin: 10px auto;
         display: inline-block;
         width: auto;
         transition: all 0.25s ease;
+
+        p {
+            margin:1em auto;
+        }
 
         &:hover {
             cursor: pointer;

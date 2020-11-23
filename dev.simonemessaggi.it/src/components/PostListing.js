@@ -12,7 +12,7 @@ const PostListing = ({ postEdges }) => {
         path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
         categories: postEdge.node.frontmatter.categories,
-        featuredImage: postEdge.node.frontmatter.featuredImage.childImageSharp.fixed,
+        featuredImage: postEdge.node.frontmatter.featuredImage.childImageSharp.fluid,
         title: postEdge.node.frontmatter.title,
         date: postEdge.node.fields.date,
         excerpt: postEdge.node.excerpt,
@@ -35,7 +35,7 @@ const PostListing = ({ postEdges }) => {
                 {post.date} &mdash; <span>{post.categories.join(' / ')}</span>{' '}
                 &mdash; {post.timeToRead} Min Read{' '}
               </div>
-              <Img fixed={post.featuredImage} />
+              <Img fluid={post.featuredImage} />
               <p>{post.excerpt}</p>
             </div>
           </article>

@@ -11,7 +11,7 @@ const Header = () => (
         {config.siteTitle}
       </Link>
     </h1>
-    <h4>A DevOps Journey</h4>
+    <h4>...a DevOps Journey</h4>
     <nav>
       <ul className={styles.mainNav}>
         <li>
