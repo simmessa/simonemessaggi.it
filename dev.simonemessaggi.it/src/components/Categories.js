@@ -5,7 +5,9 @@ import _ from 'lodash'
 const Categories = props => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(limit: 2000) {
+      allMarkdownRemark(
+          limit: 2000
+        ) {
         group(field: frontmatter___categories) {
           fieldValue
           totalCount

@@ -3,6 +3,7 @@ date: 2014-08-12
 title: "In Italia siamo indietro"
 featuredImage: "./images/29_square_wheels.jpg"
 canonical: "https://medium.com/@simmessa/in-italia-siamo-indietro-d32fdc126713"
+status: published
 categories: 
     - Tech
 tags:

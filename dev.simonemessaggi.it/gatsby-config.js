@@ -126,7 +126,6 @@ module.exports = {
                 site_url
                 feed_url
                 title
-                canonical
                 description
                 image_url
                 copyright
@@ -143,7 +142,6 @@ module.exports = {
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.fields.date,
                 title: edge.node.frontmatter.title,
-                canonical: edge.node.frontmatter.canonical,
                 description: edge.node.excerpt,
                 url: rssMetadata.site_url + edge.node.fields.slug,
                 guid: rssMetadata.site_url + edge.node.fields.slug,
@@ -158,6 +156,7 @@ module.exports = {
               allMarkdownRemark(
                 limit: 1000,
                 sort: { order: DESC, fields: [fields___date] },
+                filter: { frontmatter: {status: {ne: "draft"}} },
               ) {
                 edges {
                   node {
@@ -170,7 +169,6 @@ module.exports = {
                     }
                     frontmatter {
                       title
-                      canonical
                       date
                       categories
                       tags
