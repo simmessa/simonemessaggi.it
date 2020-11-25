@@ -8,6 +8,8 @@ categories:
 tags:
     - Docker
     - Kubernetes
+    - Distroless
+    - Security
     - Talk
 ---
 

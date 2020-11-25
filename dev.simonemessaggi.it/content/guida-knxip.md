@@ -7,7 +7,7 @@ categories:
     - Tech
 tags:
     - IOT
-    - home automation
+    - Home automation
     - KNX
 ---
 

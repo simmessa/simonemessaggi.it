@@ -7,9 +7,9 @@ status: published
 categories: 
     - Tech
 tags:
-    - legacy
-    - ghost
-    - nodejs
+    - Legacy
+    - Ghost
+    - NodeJS
 ---
 
 *Fa specie constatare che, questo post, scritto nel lontano 12 agosto 2014 sia, per certi versi, ancora così attuale... comunque ve lo lascio e tirate voi le conclusioni!*

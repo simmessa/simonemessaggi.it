@@ -6,9 +6,9 @@ status: published
 categories: 
     - Tech
 tags:
-    - ssh
-    - fail2ban
-    - security
+    - SSH
+    - Fail2ban
+    - Security
 ---
 
 *Articolo originariamente pubblicato il 6 febbraio 2016 su Simmessa.com*
