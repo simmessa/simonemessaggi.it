@@ -8,6 +8,7 @@ categories:
     - Humans
 tags:
     - talent
+    - teambuilding
 ---
 
 Se lavorate nell'informatica potrebbe esservi capitato di dover selezionare delle persone per il vostro team di tecnici/geek, questo articolo parla proprio di come selezionare tecnici bravi e di quali strategie potete adottare per attirare nel vostro team professionalità di alto livello.
@@ -30,7 +31,7 @@ Se mirate a creare una squadra di persone "toste" (diversamente non sareste qui)
 
 ## Testing 1,2,3
 
-La mia [personalissima esperienza](https://medium.com/@simmessa/la-mia-esperienza-di-lavoro-a-ilgiornale-it-327bdf543fa3) come responsabile del sito internet ilGiornale.it mi ha permesso di sperimentare un po' per quanto riguarda la selezione di persone per il team di sviluppo, e mi ha insegnato che per attrarre talenti spesso un normale annuncio non basta, perché manca un vero filtro che possa fare la differenza tra chi campa lavoricchiando con l'informatica e chi ha una vera e propria passione per questo campo.
+La mia [personalissima esperienza](/la-mia-esperienza-di-lavoro-a-il-giornale-it) come responsabile del sito internet ilGiornale.it mi ha permesso di sperimentare un po' per quanto riguarda la selezione di persone per il team di sviluppo, e mi ha insegnato che per attrarre talenti spesso un normale annuncio non basta, perché manca un vero filtro che possa fare la differenza tra chi campa lavoricchiando con l'informatica e chi ha una vera e propria passione per questo campo.
 
 Le prime selezioni che ho affrontato, infatti, avevano tutte lo stesso problema, ci voleva tempo e molte risorse per vedere tanti candidati che magari non avevano la metà delle skill che portavano a CV, e questo fatto emergeva generalmente dopo che gran parte di questo processo molto *time consuming* si era già conclusa.
 
