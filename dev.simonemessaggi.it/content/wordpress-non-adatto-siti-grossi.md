@@ -1,4 +1,17 @@
-# Perché Wordpress non è adatto ai siti di grosse dimensioni
+---
+date: 2018-06-13
+title: "Perché Wordpress non è adatto ai siti di grosse dimensioni"
+featuredImage: "./images/wordpress.png"
+status: published
+canonical: https://medium.com/@simmessa/perch%C3%A9-wordpress-non-%C3%A8-adatto-ai-siti-di-grosse-dimensioni-890be4e320a8
+categories: 
+    - Tech
+    - Rants
+tags:
+    - Wordpress
+    - Trends
+    - Performance
+---
 
 Era un po' che volevo scrivere questo articolo, per varie ragioni, ma soprattutto per chiarire alcuni concetti che spesso mi trovo a ribadire in ambito professionale.
 
@@ -221,6 +234,10 @@ Illustrare tutte le possibili alternative va al di la dello scopo di questo arti
 - [Keystone](http://keystonejs.com/) in NodeJS
 - [Gravity](https://getgrav.org/) flat CMS in PHP
 - [GraphCMS](https://graphcms.com/) headless CMS as a Service, graphQL API
+- [GatsbyJS](https://www.gatsbyjs.com/) static site generator in NodeJS
+
+**EDIT**
+*Sarei totalmente ipocrita se non annoverassi, tra i CMS e site generators menzionati qui sopra quello che ho deciso di usare per questo sito, ovvero [GatsbyJS](https://www.gatsbyjs.com/), provatelo!*
 
 ## Bibliografia
 

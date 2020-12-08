@@ -7,8 +7,8 @@ canonical: https://medium.com/@simmessa/come-attrarre-talenti-nel-mondo-del-tech
 categories: 
     - Humans
 tags:
-    - talent
-    - teambuilding
+    - Talent
+    - Teambuilding
 ---
 
 Se lavorate nell'informatica potrebbe esservi capitato di dover selezionare delle persone per il vostro team di tecnici/geek, questo articolo parla proprio di come selezionare tecnici bravi e di quali strategie potete adottare per attirare nel vostro team professionalità di alto livello.
