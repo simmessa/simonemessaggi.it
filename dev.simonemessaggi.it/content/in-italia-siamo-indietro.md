@@ -5,7 +5,7 @@ featuredImage: "./images/29_square_wheels.jpg"
 canonical: "https://medium.com/@simmessa/in-italia-siamo-indietro-d32fdc126713"
 status: published
 categories: 
-    - Tech
+    - Rants
 tags:
     - Legacy
     - Ghost

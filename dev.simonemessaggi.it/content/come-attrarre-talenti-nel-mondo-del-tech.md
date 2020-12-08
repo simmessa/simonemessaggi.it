@@ -1,6 +1,18 @@
-# Come attrarre talenti nel mondo del tech
+---
+date: 2018-11-20
+title: "Come attrarre talenti nel mondo del tech"
+featuredImage: "./images/talent.jpg"
+status: published
+canonical: https://medium.com/@simmessa/come-attrarre-talenti-nel-mondo-del-tech-28695185e7a3
+categories: 
+    - Humans
+tags:
+    - talent
+---
 
-Se lavorate nell'informatica potrebbe esservi capitato di dover selezionare delle persone per il vostro team di tecnici/nerd, questo articolo parla proprio di come selezionare tecnici bravi e di quali strategie potete adottare per attirare nel vostro team professionalità di livello.
+Se lavorate nell'informatica potrebbe esservi capitato di dover selezionare delle persone per il vostro team di tecnici/geek, questo articolo parla proprio di come selezionare tecnici bravi e di quali strategie potete adottare per attirare nel vostro team professionalità di alto livello.
+
+*Repost di articolo apparso per la prima volta su [Medium](https://medium.com/@simmessa/come-attrarre-talenti-nel-mondo-del-tech-28695185e7a3)*
 
 ## Serie A
 

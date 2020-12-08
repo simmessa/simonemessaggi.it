@@ -14,9 +14,9 @@ tags:
     - Python
 ---
 
-*Repost di articolo apparso per la prima volta su [Medium](https://medium.com/@simmessa/fare-un-dump-da-uno-snapshot-rds-con-python-e-terraform-7cbd0fa026fc)*
-
 Ok, già tutti voi conoscete le prodezze del cloud di Amazon, per cui non vi annoio con i dettagli, e se i vostri server si trovano su AWS è molto facile che già utilizziate il loro *db engine as a service*, ovvero **RDS** (che sta per Relational Database Service).
+
+*Repost di articolo apparso per la prima volta su [Medium](https://medium.com/@simmessa/fare-un-dump-da-uno-snapshot-rds-con-python-e-terraform-7cbd0fa026fc)*
 
 Oggi parliamo proprio di un hack utile per chi usa questo servizio, e nello specifico, andremo a vedere come creare un classico dump del db (formato .sql) da un'istanza di database.
 
