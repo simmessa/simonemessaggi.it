@@ -1,5 +1,6 @@
 User-agent: *
+Disallow: /
 Disallow: */tags/
 Disallow: */categories/
 
-sitemap: https://gatsby-markdown-blog-starter.netlify.com/sitemap.xml
+sitemap: https://dev.simonemessaggi.it/sitemap.xml
