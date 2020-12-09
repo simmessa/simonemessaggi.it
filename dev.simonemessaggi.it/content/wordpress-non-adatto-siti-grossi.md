@@ -15,6 +15,8 @@ tags:
 
 Era un po' che volevo scrivere questo articolo, per varie ragioni, ma soprattutto per chiarire alcuni concetti che spesso mi trovo a ribadire in ambito professionale.
 
+*Repost di articolo apparso per la prima volta su [Medium](https://medium.com/@simmessa/perch%C3%A9-wordpress-non-%C3%A8-adatto-ai-siti-di-grosse-dimensioni-890be4e320a8)*
+
 ## Wordpress è un cesso
 
 Ma come?! Il CMS del popolo, il più usato (secondo [una ricerca](https://thenextweb.com/dd/2018/03/05/30-of-the-web-now-runs-on-wordpress/) a Marzo 2018 il 30% dei siti di Internet utilizza Wordpress), il più sviluppato e quello con il maggior numero di plugin di successo, come può essere un bidone? Sicuramente ti stai sbagliando.
