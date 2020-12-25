@@ -1,4 +1,15 @@
-# Lo stato della fibra a Rivolta d'Adda
+---
+date: 2018-08-7
+title: "Lo stato della fibra a Rivolta d'Adda"
+featuredImage: "./images/fibra.jpg"
+canonical: "https://medium.com/@simmessa/lo-stato-della-fibra-a-rivolta-dadda-19744704ddeb"
+status: published
+categories: 
+    - Rants
+tags:
+    - Fibra ottica
+    - Digital divide
+---
 
 Scrivo questo post per predirre il futuro, quindi probabilmente mi sbaglierò, ma tant'è.
 
@@ -14,7 +25,8 @@ Quello che segue è quanto ho scoperto dopo varie ricerche, sul destino della fi
 
 Questa riflessione parte, prima di tutto da una constatazione, tutti (o quasi) i comuni che confinano con Rivolta d'Adda hanno già la connettività in fibra ottica di TIM.
 
-img
+![Rivolta d'Adda uno dei comuni in ritardo sulla fibra ottica](./images/fibra_rivolta.png)
+*I comuni limitrofi sono quasi tutti serviti dalla rete in fibra...*
 
 Ecco una lista:
 
@@ -101,6 +113,9 @@ La brutta notizia è che la fase 3 è prevista a partire dal primo semestre 2019
 Parte di questa ricerca è nata dalla curiosità che mi è scattata nel vedere vari lavori stradali nel comune di Rivolta d'Adda.
 
 Da poco hanno sostituito i vecchi lampioni con quelli nuovi a LED, hanno creato nuove cabine elettriche (della socierà Hera) e contemporaneamente qualcuno sostiene che TIM se ne sia avvalsa o abbia fatto lavori analoghi per la posa di fasci di fibre ottiche.
+
+![Le cabine Hera sembrano un po grandi per quello che fanno](./images/hera.jpg)
+*La speranza ha la forma di cabina elettrica*
 
 Questo avveniva un anno fa, durante l'estate del 2017.
 
