@@ -22,6 +22,20 @@ main {
   padding: 20px;
 }
 
+/* fixing gifs in md post body */
+main > div > div > p > img {
+  display: block;
+  min-width: 70%;
+  margin: auto;
+}
+
+/* fixing didascalies */
+// main > div > div > p > em {
+//   margin: 1em auto;
+//   display: block;
+//   width: 690px;
+// }
+
 article {
   height: 90%;
 
