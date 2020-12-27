@@ -23,10 +23,18 @@ main {
 }
 
 /* fixing gifs in md post body */
-main > div > div > p > img {
+figure > img {
   display: block;
   min-width: 70%;
   margin: auto;
+}
+
+figcaption {
+  max-width:690px;
+  margin:auto;
+  margin-top:1em;
+  font-style: italic;
+  text-align: center;
 }
 
 /* fixing didascalies */
