@@ -7,8 +7,8 @@ const ContactPage = () => (
   <Layout>
     <main>
       <Helmet title={`Contact | ${config.siteTitle}`} />
-      <h1>Contact us</h1>
-      <p>Contact informations</p>
+      <h1>Contattami</h1>
+      <p>In genere rispondo con il mio profilo social, su <a href="https://twitter.com/simmessa">Twitter</a></p>
     </main>
   </Layout>
 )

@@ -7,8 +7,7 @@ categories:
     - Tech
 tags:
     - Tastiere meccaniche
-    - Anne Pro 2
-    - QMK
+    - Cherry MX
 ---
 
 *Questo articolo e' il primo di una serie di post originali che parla delle mie esperienze con le tastiere meccaniche, buona lettura!*
@@ -131,11 +130,13 @@ In generale, rispetto alle normali tastiere a membrana considerate come la tipol
 
 Questa loro caratteristica, che deriva direttamente dagli switch utilizzati, ha portato i produttori ad ideare una prima variante, sono gli switch cosiddetti "silent".
 
-E' stata proprio la Cherry MX nel 2016 la prima ad introdurre questa nuova tipologia di switch silenzati con i suoi silent MX, offerti nelle colorazioni standard, ovvero red, brown e black (una variante lineare dotata di una molla che richiede una forza di attuazione superiore rispetto ai red). Per ovvie ragioni non esiste una versione silent dei blue.
+E' stata proprio la Cherry MX [nel 2015](https://www.anandtech.com/show/9498/corsair-and-cherry-introduce-new-quieter-mechanical-keyboard-switches) la prima ad introdurre questa nuova tipologia di switch silenzati con i suoi silent MX, offerti nelle colorazioni standard, ovvero red, brown e black (una variante lineare dotata di una molla che richiede una forza di attuazione superiore rispetto ai red). Per ovvie ragioni non esiste una versione silent dei blue.
 
 Le caratteristiche sono fondamentalmente le stesse dei corrispettivi "non silent", ma internamente ci sono alcuni accorgimenti utili a ridurre in modo significativo il rumore. Non e' questa la sede per parlare delle tecniche costruttive in dettaglio ma esistono numerosi articoli dedicati all'argomento ([un esempio](https://switchandclick.com/2020/06/20/are-silent-switches-worth-it/#:~:text=Silent%20Switch%20Construction&text=The%20rubber%20limits%20the%20amount,more%20rubbery%20and%20mushy%20response.))
 
-Attenzione pero', il rumore di una tastiera non dipende dal solo switch, andrebbero considerati anche altri componenti tra cui, fondamentale, lo chassis che funge da vera e propria cassa di risonanza
+Attenzione pero', il rumore di una tastiera non dipende dal solo switch, andrebbero considerati anche altri componenti tra cui, fondamentale, lo chassis che funge da vera e propria cassa di risonanza.
+
+![Gli O-ring sono la soluzione piu' economica al problema di rumorosita' degli switch](./images/o_ring_dampeners.jpg)
 
 Gli switch silent solitamente sono piu' cari delle versioni "standard", esistono pero' alcuni accorgimenti, tra cui principalmente l'utilizzo di *o-ring*, per silenziare gli switch classici che con pochi euro permettono di raggiungere risultati interessanti.
 
@@ -154,6 +155,8 @@ Probabilmente un giorno ci arriveremo, ma per il momento gli unici laptop in com
 
 ![MSI Titan ovvero il primo laptop al mondo dotato di tastiera meccanica - source: TheVerge](./images/msi_titan_laptop_mechanical.jpg)
 
-Credo comunque che presto arriveranno delle novita' in questo senso e, se succedera', lo dovremo alle innovazioni degli switch meccanici low profile...
+Credo comunque che presto arriveranno delle novita' in questo senso e, se succedera', lo dovremo alle innovazioni degli switch meccanici low profile.
+
+*~ Continua ~*
 
 *Spero vi sia piaciuto l'articolo! ci ritroviamo presto con la seconda parte*
