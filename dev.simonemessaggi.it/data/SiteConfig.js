@@ -5,8 +5,7 @@ const config = {
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
   siteUrl: 'https://simonemessaggi.it', // Domain of your website without pathPrefix.
   pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription:
-    'A DevOps Journey.', // Website description used for RSS feeds/meta description tag.
+  siteDescription: 'A DevOps Journey.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '1825356251115265', // FB Application ID for using app insights
   googleAnalyticsID: 'UA-1068523-29', // GA tracking ID.
@@ -18,8 +17,7 @@ const config = {
   userGitHub: 'simmessa', // Optionally renders "Follow Me" in the Bio segment.
   userLocation: 'Milano, Italy', // User location to display in the author segment.
   userAvatar: 'https://pbs.twimg.com/profile_images/1248154244856705024/VcjtdBXR_400x400.jpg', // User avatar to display in the author segment.
-  userDescription:
-    "", // User description to display in the author segment.
+  userDescription: "", // User description to display in the author segment.
   copyright: 'Copyleft 2020. La conoscenza e\' libera.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#c62828', // Used for setting manifest and progress theme colors.
   backgroundColor: 'red' // Used for setting manifest background color.

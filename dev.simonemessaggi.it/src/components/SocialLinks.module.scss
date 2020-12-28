@@ -9,9 +9,10 @@
     align-items: center;
     margin: 15px 0;
 
-    div {
+    button {
         margin: 5px 15px;
         cursor: pointer;
+        display: block;
     }
 }
 
@@ -25,7 +26,7 @@
         top: 0;
     }
 
-    .social-links div {
+    .social-links button {
         display: inline-grid;
         position: relative;
     }

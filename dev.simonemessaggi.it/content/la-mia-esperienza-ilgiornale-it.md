@@ -11,7 +11,7 @@ tags:
     - Teambuilding
 ---
 
-In quest'ulimo periodo, mi è capitato di riflettere a vario titolo su quello che ho realizzato professionalmente negli ultimi 12 anni di attività e, più specificamente, da quando lavoro per [ilGiornale.it](http://www.ilgiornale.it); quello che segue, è un riassunto di questa riflessione, di quello che ho affrontato e di quanto mi sto trovando davanti in questo periodo, se vi ritrovate anche voi in quello che scrivo o se avete altre domande vi aspetto come sempre nei commenti, buona lettura.
+In quest'ultimo periodo, mi è capitato di riflettere a vario titolo su quello che ho realizzato professionalmente negli ultimi 12 anni di attività e, più specificamente, da quando lavoro per [ilGiornale.it](http://www.ilgiornale.it); quello che segue, è un riassunto di questa riflessione, di quello che ho affrontato e di quanto mi sto trovando davanti in questo periodo, se vi ritrovate anche voi in quello che scrivo o se avete altre domande vi aspetto come sempre nei commenti, buona lettura.
 
 *Repost di articolo apparso per la prima volta su [Medium](https://medium.com/@simmessa/la-mia-esperienza-di-lavoro-a-ilgiornale-it-327bdf543fa3)*
 
