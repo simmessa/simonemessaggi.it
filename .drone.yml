@@ -7,8 +7,8 @@ steps:
 - name: build gatsby
   image: alpine:latest
   commands:
-  - sh ' cd dev.simonemessaggi.it && node -v'
-  - sh 'ls -la'
-  - sh 'npm ci'
-  - sh 'mv static/robots.prod static/robots.txt'
-  - sh 'npm run build'
+  - cd dev.simonemessaggi.it && node -v
+  - ls -la
+  - npm ci
+  - mv static/robots.prod static/robots.txt
+  - npm run build
