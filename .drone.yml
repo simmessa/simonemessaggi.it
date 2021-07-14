@@ -5,7 +5,7 @@ name: default
 
 steps:
 - name: build gatsby
-  image: gatsbyjs/gatsby:onbuild
+  image: simmessa/gatsby-builder:latest
   commands:
   - cd dev.simonemessaggi.it && node -v
   - ls -la

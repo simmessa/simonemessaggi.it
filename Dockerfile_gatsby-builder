@@ -1,0 +1,8 @@
+#grab the right node image...
+FROM node:14.15.3-alpine3.12
+MAINTAINER simmessa@gmail.com
+
+RUN apk -U add build-base autoconf automake pkgconfig libtool nasm python3 curl
+
+# might remove this later on
+RUN npm install --global surge
