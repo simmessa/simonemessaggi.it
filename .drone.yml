@@ -5,7 +5,7 @@ name: default
 
 steps:
 - name: build gatsby
-  image: node:14.15.3-alpine3.12
+  image: gatsbyjs/gatsby:onbuild
   commands:
   - cd dev.simonemessaggi.it && node -v
   - ls -la
